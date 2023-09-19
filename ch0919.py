@@ -41,3 +41,19 @@ print(arr[1])
 
 arr = ["123"]*20
 print(arr[18])'''
+
+
+str1 = input("請輸入部別(4.碩士班, 3.日四技, 9.夜間部):")
+str2 = input("請輸入學年:")
+str2 = (hex(int(str2/10))[2], str2%10)
+str3 = input("請輸入科系:(1.資工系, 2.電子系)")
+if(str3 == "1"):
+    var = "17"
+elif(str3 == "2"):
+    var = "13"
+str4 = input("請輸入入學號碼:")
+print("你的學號是:"+str1+str2+var+str4)
+
+'''var = 111  #進字轉換
+print(hex(var))
+print(hex(int(var/10))[2], var%10)'''
