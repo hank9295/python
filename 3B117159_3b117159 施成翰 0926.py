@@ -65,7 +65,7 @@ elif sum == None:
     a1 = num + var
     print("老闆:",arr,(total-a1))
     print("顧客:",arr1,(total1),"順子沒點")
-    print("老闆輸")
+    print("顧客輸")
 else:
     toto()
 
